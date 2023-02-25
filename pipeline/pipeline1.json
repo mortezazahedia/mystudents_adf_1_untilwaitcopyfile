@@ -20,7 +20,7 @@
 							"policy": {
 								"timeout": "0.12:00:00",
 								"retry": 0,
-								"retryIntervalInSeconds": 60,
+								"retryIntervalInSeconds": 30,
 								"secureOutput": false,
 								"secureInput": false
 							},
@@ -50,7 +50,7 @@
 								{
 									"activity": "Get Metadata1",
 									"dependencyConditions": [
-										"Skipped"
+										"Succeeded"
 									]
 								}
 							],
@@ -96,7 +96,7 @@
 					{
 						"activity": "Until1",
 						"dependencyConditions": [
-							"Skipped"
+							"Succeeded"
 						]
 					}
 				],
