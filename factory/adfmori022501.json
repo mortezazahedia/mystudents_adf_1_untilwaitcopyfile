@@ -1,0 +1,9 @@
+{
+	"name": "adfmori022501",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7ee7b294-b82d-4893-b4b0-253d2a5ff325",
+		"tenantId": "cb722ba1-362f-40d1-bc2f-2d5574a27b0a"
+	}
+}
